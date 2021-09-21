@@ -16,7 +16,7 @@
     "deprecation": {
       "severity": "warning"
     },
-    "eofline": true,
+    "eofline": false,
     "import-blacklist": [
       true,
       "rxjs/Rx"
@@ -83,7 +83,7 @@
       }
     },
     "typedef": [
-      true,
+      false,
       "call-signature"
     ],
     "typedef-whitespace": {
@@ -108,7 +108,10 @@
       "options": [
         "ban-keywords",
         "check-format",
-        "allow-pascal-case"
+        "allow-pascal-case",
+        "allow-trailing-underscore",
+        "allow-leading-underscore",
+        "allow-snake-case"
       ]
     },
     "whitespace": {
